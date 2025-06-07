@@ -67,33 +67,34 @@ lorem или loremru создаёт текст можно указать кол�
 [SHORCUTS]
 
 
-[ ctrl + z = back / ход назад]
-[ ctrl + y = back to back / вернут ошибку]
-[ ctrl + x = cut => вырезать]
-[ alt + z = off or on horizontal scrollbar => отключение или включение ]горизонтальной прокрутки
-[ ctrl + v = paste => вставить]
-[ ctrl + a = select all => выбрать все]
+[ ctrl + z = back / ход назад]  
+[ ctrl + y = back to back / вернут ошибку] 
 [ ctrl + c = copy => копировать]
+[ ctrl + v = paste => вставить]
+[ ctrl + x = cut => вырезать]
+[ ctrl + a = select all => выбрать все]
 [ ctrl + alt + up or down =  select line / выделит линию]
-[ shift + alt + up or down = quick copy / скопировать линию]
-[ alt + left mouse = select area => выбрать область ]
-[ shift + up__ down__left__right = select => выделить]
-[ alt + shift + f = format => порядок]
-[ alt + up or down => move line => двигать линию]
 [ ctrl + left or right = jump all word => прыгать целое слово]
-[ alt + tab = change window  => смена окна ]
-[ (f2 => quick rename / быстрое переименования) ]
-[ (fn + f2 => quick rename / быстрое переименования) для ноутбуков]
 [ ctrl + up or down =>  вертикально скролить]
 [ ctrl + f = search menu = меню поиска]
-[ home = back to start = вернутся к началу]
-[ end = go to end = иди к концу]
+[ ctrl + enter = open new line]
+[ ctrl + shift + l = select all similars = выбрать одинаковых]
+[ alt + z = off or on horizontal scrollbar => отключение или включение ]
+[ alt + up or down => move line => двигать линию] 
+[ alt + left mouse = select area => выбрать область ]
+[ alt + shift + f = format => порядок]
+[ alt + tab = change window  => смена окна ]
+[ shift + up__ down__left__right = select => выделить]
+[ shift + alt + up or down = quick copy / скопировать линию]
+[ shift + mouserscroll = horizontal scrolling = горизонтальный скролл] 
+[ end = go to end line = иди к концу]
+[ home = back to start  line= вернутся к началу]
 [ ctrl + home = back to the very begining = вернутся к самому началу ]
 [ ctrl + end = go to the very end = идти к самому концу]
-[ ctrl + enter = open new line]
-[ shift + mouserscroll = horizontal scrolling = горизонтальный скролл]
-[ ctrl + shift + l = select all similars = выбрать одинаковых]
-[ ctrl + shif + l = select ]
+[ (f2 => quick rename / быстрое переименования) ]
+[ (fn + f2 => quick rename / быстрое переименования) для ноутбуков]
+
+
 
 атрибуты всегда устанавливаются внутри открывающей части тега => <img src=""> / <p class=""></p>
 
@@ -354,6 +355,9 @@ scrolldelay
 
 truespeed
 По умолчанию значения меньше 60 в scrolldelay игнорируются. Однако, если присутствует truespeed, то они не игнорируются
+
+scrollamount
+Задаёт сдвиг на каждом шаге в пикселях. По умолчанию 6.
 
 [FORM]
 
