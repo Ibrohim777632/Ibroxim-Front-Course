@@ -9,6 +9,7 @@
 
 <body>
 
+    
 
     <ul>
         <li>text</li>
@@ -33,7 +34,7 @@
 </body>
 
 <style>
-    :root{
+    :root {
         /* font-size: 30px; */
     }
 
@@ -47,7 +48,7 @@
     }
 
 
- 
+
 
 
     .block {
@@ -79,69 +80,73 @@
         /* list-style-type: lao; */
     }
 
-    /* ul li:first-child{
-        color: red;
+    ul li:first-child {
+        /* color: red; */
     }
 
-    ul li:last-child{
-        color: red;
-    } */
+    ul li:last-child {
+        /* color: red; */
+    }
 
 
     ul {
         /* font-size: 10px; */
     }
 
-    ul li:nth-child(2) {
+    ul li:nth-child(7) {
         /* color: red; */
         /* font-size: 30px; */
-        /* font-size: 2em; */
+        /* font-size: 200%;
+        font-size: 2em; */
         /* font-size: 2rem; */
     }
 
-    /* ul li:nth-child(odd) {
+    ul li:nth-child(odd) {
+        /* color: red; */
+    }
+
+
+    ul li:nth-child(even) {
+        /* color: red; */
+    }
+
+    ul li:nth-child(3n) {
+        /* color: red; */
+    }
+
+    ul li:nth-child(3n - 1) {
+        /* color: red; */
+    }
+
+    ul li:nth-last-of-type(2) {
+        /* color: red; */
+    }
+
+
+    ul li:nth-last-of-type(even) {
+        /* color: red; */
+    }
+
+
+    ul li:nth-last-of-type(odd) {
+        /* color: red; */
+    }
+
+    /* ul li:not(:first-child) {
         color: red;
     } */
+    ul li:not(:last-child,:first-child,:nth-child(5)){
+        /* color: red; */
+    }
 
 
-    /* ul li:nth-child(even){
-        color: red;
-    } */
+    ul li:not(:nth-child(even)) {
+        /* color: red; */
+    }
 
-    /* ul li:nth-child(3n){
-        color: red;
-    } */
-
-    /* ul li:nth-child(3n - 1){ 
-        color: red;
-    } */
-
-    /* ul li:nth-last-of-type(2) {
-        color: red;
-    } */
-
-
-    /* ul li:nth-last-of-type(even) {
-        color: red;
-    } */
-
-
-    /* ul li:nth-last-of-type(odd) {
-        color: red;
-    } */
-
-    /* ul li:not(:first-child){
-        color: red;
-    } */
-
-
-    /* ul li:not(:nth-child(even)){
-        color: red;
-    } */
-
-    /* ul li:hover:not(:nth-child(odd)){
-        background-color: gray;
-    } */
+    ul li:hover:not(:nth-child(odd)){
+        /* background-color: gray; */
+    }
 </style>
 
 
